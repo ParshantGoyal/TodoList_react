@@ -34,6 +34,7 @@ function AppCombiner(){
     <div class="container text-center">
     <AppInput inputv ={input_val}/>
     <br></br>
+    {content.length ==0 && <div>Make your schedule</div>}
     <AppOutput items ={content} del={ondelete}/>
 
     {/* <AppOutput work ="coding" date ="24/12/2024" /> */}
