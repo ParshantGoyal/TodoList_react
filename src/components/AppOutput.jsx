@@ -1,10 +1,10 @@
 import SingleItem from "./SingleItem";
 
-function AppOutput({items}){
+function AppOutput({items,del}){
 return<>
 <hr></hr>
 
-{items.map(item =><SingleItem singlei ={item}/>)}
+{items.map(item =><SingleItem  singlei ={item} dele ={del}/>)}
  {/* <SingleItem work = {work} date ={date}/> */}
          </>
 
